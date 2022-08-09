@@ -11,7 +11,6 @@ class CarrotMarketUI extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // writing for test
       title: 'carrot_market_ui',
       debugShowCheckedModeBanner: false,
       home: MainScreens(),
