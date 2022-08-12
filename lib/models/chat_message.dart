@@ -19,17 +19,25 @@ class ChatMessage {
 // 샘플 데이터
 List<ChatMessage> chatMessageList = [
   ChatMessage(
-    sender: '당근이, ',
+    sender: '당근이',
     profileImage: 'https://placeimg.com/200/100/people/grayscale',
     location: '대부동',
     sendDate: '1일전',
     message: 'developer 님,근처에 다양한 물품들이 아주 많이있습니다.',
   ),
   ChatMessage(
-      sender: 'Flutter ',
+      sender: 'Flutter',
       profileImage: 'https://placeimg.com/200/100/people',
       location: '중동',
       sendDate: '2일전',
       message: '안녕하세요 지금 다 예약 상태 인가요?',
+      imageUri: 'https://placeimg.com/200/100/tech/grayscale'),
+
+  ChatMessage(
+      sender: '재중군',
+      profileImage: 'https://placeimg.com/200/100/people',
+      location: '태백시',
+      sendDate: '10만년전',
+      message: '크오오크오오 크어어어',
       imageUri: 'https://placeimg.com/200/100/tech/grayscale')
 ];

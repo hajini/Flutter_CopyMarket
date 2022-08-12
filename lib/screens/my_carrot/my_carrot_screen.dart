@@ -11,7 +11,7 @@ class MyCarrotScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('나의 당근'),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.settings))
+          IconButton(onPressed: () {}, icon: const Icon(Icons.settings), color: Colors.black,)
         ],
         bottom: const PreferredSize(
             child: Divider(thickness: 0.5, height: 0.5,),
